@@ -1,11 +1,7 @@
 # mysql-connector-python を使用して MySQL にアクセス
 ## add settings.json ( Code Runner )
 ```
-    "code-runner.showRunIconInEditorTitleMenu": false,
-    "code-runner.executorMapByFileExtension": {
-        ".hta": "C:\\Windows\\SysWOW64\\mshta.exe",
-        ".htm": "C:\\Windows\\SysWOW64\\mshta.exe"
-    }
+    "code-runner.showRunIconInEditorTitleMenu": false
 ```
 
 ## python -m pip install mysql-connector-python
