@@ -8,7 +8,7 @@
     }
 ```
 
-python -m pip install mysql-connector-python
+## python -m pip install mysql-connector-python
 
 ```python
 cnn = mysql.connector.connect(
