@@ -19,7 +19,7 @@ cnn = mysql.connector.connect(
     user='root',
     passwd='',
     charset="utf8",
-    autocommit='True')
+    autocommit=True)
 
 cursor = cnn.cursor()
 cursor.execute("select * from 社員マスタ where 社員コード <= '0010'")
